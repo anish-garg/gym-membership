@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("fitsix-4-bright_LIQo.webp");
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+#bg {
+    background-color: rgb(53 78 124);
+    width: 1365px;
+    height: 65px;
+    /* border:2px solid; */
+    position: fixed;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+
+}
+
+.mid {
+    /* display: inline-block; */
+    position: absolute;
+    top: 5px;
+    left: 450px;
+}
+
+.right {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 2px 12px;
+    padding-left: 1px;
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar li a:hover {
+    color: rgb(28, 113, 177);
+}
+
+.navbar li a:active {
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    height: 60px;
+    width: 105px;
+    display: inline;
+}
+
+.name {
+    display: inline-block;
+    position: relative;
+    top: -22px;
+    left: 20px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.instagram {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 160px;
+}
+
+.snapchat {
+    width: 37px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    right: 102px;
+}
+
+.linkedin {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+.container {
+    display: inline-block;
+    margin: 500px 75px;
+    width: 480px;
+    height: 510px;
+    background-color: rgba(255, 255, 255, 0.491);
+    border-radius: 15px;
+}
+
+.first {
+    padding: 4px 8px;
+    position: relative;
+    left: 40px;
+    top: 2px;
+
+}
+
+.last {
+    padding: 4px 8px;
+    position: relative;
+    left: 55px;
+    top: 2px;
+
+}
+
+.age {
+    float: left;
+    padding: 4px 8px;
+    position: relative;
+    left: 39px;
+    top: 50px;
+}
+
+
+.weight {
+    padding: 4px 8px;
+    position: relative;
+    left: 58px;
+    top: 50px;
+}
+
+.height {
+    padding: 4px 8px;
+    position: relative;
+    top: 90px;
+    left: 38px;
+}
+
+.gmail {
+    padding: 4px 8px;
+    position: relative;
+    top: 90px;
+    left: 55px;
+}
+
+h4 {
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h5 {
+    position: relative;
+    top: 100px;
+    left: 35px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.radio1 {
+    position: relative;
+    left: 32px;
+    top: 90px;
+}
+
+.regular {
+    position: relative;
+    left: 30px;
+    top: 89px;
+    font-size: 20px;
+}
+
+
+.radio2 {
+    position: relative;
+    right: 60px;
+    top: 125px;
+}
+
+.pro {
+    position: relative;
+    right: 63px;
+    top: 123px;
+    font-size: 20px;
+}
+
+.radio3 {
+    position: relative;
+    top: 160px;
+    right: 117px;
+}
+
+.vip {
+    position: relative;
+    top: 160px;
+    right: 120px;
+    font-size: 20px;
+}
+
+.submit {
+    position: relative;
+    top: 200px;
+    padding: 4px 10px;
+}
